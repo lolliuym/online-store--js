@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-120vh {
+  height: 120vh;
+}
+.inset-full_important {
+  width: 100% !important;
+  height: 100% !important;
+}
+.fa-star path {
+  fill: #cbd5e1;
+}
+.fa-times path {
+  fill: #757575;
+}
+.btn-primary {
+  @apply px-2 py-1 border-2  rounded-md  hover:border-sky-700;
+}
+.btn-primary--rect {
+  @apply border-2  rounded-none  text-left	 p-2 w-full inline-block  hover:border-sky-700;
+}
+.btn-secondary {
+  @apply rounded text-slate-500 px-2 py-1 border-2 border-slate-500 hover:bg-slate-500 hover:text-white;
+}
+.btn-success {
+  @apply rounded text-green-500 px-2 py-1 border-2 border-green-500 hover:bg-green-500 hover:text-white;
+}
+.btn-danger {
+  @apply rounded text-rose-500 px-2 py-1 border-2 border-rose-500 hover:bg-rose-500 hover:text-white;
+}
+.input-type {
+  @apply placeholder:text-slate-500 block w-full py-1 px-2 rounded-md   border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-1;
+}
